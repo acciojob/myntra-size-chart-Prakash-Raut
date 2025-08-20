@@ -1,2 +1,27 @@
-
 /* Your CSS Code here. */
+	table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    thead th {
+      background-color: #8b0000;
+      color: white;
+      padding: 10px;
+    }
+    tbody td, tbody th {
+      border: 1px solid #000;
+      padding: 8px;
+    }
+    tbody tr:nth-child(1) {
+      background-color: #cd5c5c;
+      color: white;
+    }
+    tbody tr:nth-child(2) {
+      background-color: #f5cfcf;
+    }
+    tbody tr:nth-child(3) {
+      background-color: #dcdcdc;
+    }
